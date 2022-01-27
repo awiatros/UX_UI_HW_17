@@ -135,3 +135,15 @@ footer {
 .socials {
     text-align: center;
 }
+
+.moveup {
+    position: absolute;
+    right: 10%;
+    top: -25%;
+    height: 64px;
+    width: 64px;
+    border: none;
+    background-color: #dde8ee;
+    padding: 0px;
+    border-radius: 65px;
+}
