@@ -100,12 +100,12 @@ section {
 }
 
 /* Footer */
+
 footer {
     background: #476072;
     position: absolute;
     left: 0px;
     right: 0px;
-    bottom: 0px;
     color: #eee;
 }
 
@@ -114,7 +114,8 @@ footer {
     max-width: 1192px;
     margin: 0 10%;
     list-style-type: none;
-    padding: 16px;
+    margin-bottom: 16px;
+    padding-inline-end: 40px;
 }
 
 .credits a {
@@ -122,6 +123,7 @@ footer {
     text-decoration: none;
     color: lightblue;
     top: auto;
+    padding-bottom: 14px;
 }
 
 .credits a:hover {
@@ -129,11 +131,17 @@ footer {
 }
 
 .icon {
-    padding: 0 16px;
+    padding: 0 24px;
 }
 
 .socials {
     text-align: center;
+}
+
+.break {
+    padding: 0 8px;
+    font-size: 14px;
+    transform: translateY(-20%);
 }
 
 .moveup {
@@ -146,4 +154,12 @@ footer {
     background-color: #dde8ee;
     padding: 0px;
     border-radius: 65px;
+}
+
+#copyright {
+    text-align: right;
+    margin: auto;
+    margin-right: 10%;
+    width: 100px;
+    padding-bottom: 16px;
 }
